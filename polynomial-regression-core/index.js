@@ -112,7 +112,7 @@ async function train(xs, ys, numIterations) {
 }
 
 async function learnCoefficients() {
-  const trueCoefficients = {a: -.8, b: -.2, c: .9, d: .5};
+  const trueCoefficients = {a: -.5, b: -.4, c: .3, d: .2};
   const trainingData = generateData(100, trueCoefficients);
 
   // Plot original data
